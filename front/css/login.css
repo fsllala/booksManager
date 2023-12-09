@@ -1,0 +1,91 @@
+
+.login {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    /* 设置背景渐变色 */
+    background-image: linear-gradient(to right, #f9b2c3, #41dbe2);
+}
+
+.loginBox {
+    width: 60%;
+    height: 60%;
+    border-radius: 18px;
+    padding: 20px;
+    background-color: #fff;
+    /* 水平垂直居中 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left {
+    height: 100%;
+    width: 40%;
+}
+
+.right {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left .logo {
+    width: 150%;
+    /* 垂直居中 */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right .info {
+    margin: 50px;
+}
+
+.right .info h1 {
+    margin-bottom: 30px;
+}
+
+.right .loginFormBox {
+    /* background-color: #CCC; */
+    width: 100%;
+    text-align: center;
+}
+
+.loginFormBox div {
+    margin-bottom: 20px;
+}
+
+.loginFormBox .username,
+.password {
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    text-indent: 2em;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+.loginFormBox .loginBtn {
+    width: 30%;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    background-color: #017bff;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.loginFormBox .loginBtn:hover {
+    background-color: #158aea;
+}
+
+.loginFormBox .loginBtn:active {
+    background-color: #419ce7;
+}
